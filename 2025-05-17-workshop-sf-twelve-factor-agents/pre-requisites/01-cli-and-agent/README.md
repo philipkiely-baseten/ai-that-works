@@ -193,7 +193,7 @@ export async function agentLoop(thread: Thread): Promise<AgentResponse> {
 The the BAML code is configured to use a baseten-hosted model by default
 
 To get a Baseten API key and URL, create an account at [baseten.co](https://baseten.co),
-and then deploy [Qwen3 32B from the model library](https://www.baseten.co/library/qwen-3-32b/).
+and then deploy [DeepSeek V3 Model API](https://app.baseten.co/model-apis/create).
 
 If you want to run the example with no changes, you can set the following
 
@@ -203,7 +203,7 @@ If you want to run the example with no changes, you can set the following
 <details>
     <summary>Testing with other models</summary>
 [Docs on baml clients can be found here](https://docs.boundaryml.com/guide/baml-basics/switching-llms) the 
-BaseTen qwen client is attached to the Prompt here:
+Baseten DeepSeek client is attached to the Prompt here:
 
 ```rust 
   function DetermineNextStep(thread: string) -> DoneForNow {
